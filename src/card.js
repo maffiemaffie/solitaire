@@ -30,7 +30,7 @@ export class Card {
         this.element.insertAdjacentElement('afterbegin', thisBack);
 
         this.element.setAttribute('draggable', true);
-        this.element.classList.add('card');
+        this.element.classList.add('sol-card');
     }
 
     flip() {
